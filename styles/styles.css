@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+li {
+    margin: 8px 0;
+}
+
+/* Container da Imagem */
+.topo-banner {
+    width: 100%;
+    max-width: 1200px; /* Largura máxima para não esticar demais em telas gigantes */
+    margin: 0 auto 30px auto; /* Centraliza o banner na página */
+    background-color: #f0f0f0; /* Cor de fundo para preencher se sobrarem bordas laterais */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+/* Ajuste da Imagem para exibir 100% sem cortes */
+.topo-banner img {
+    width: 100%;
+    height: auto; /* Mantém a proporção original de altura */
+    max-height: 400px; /* Define uma altura máxima bem ampla */
+    display: block;
+    object-fit: contain; /* GARANTE QUE A IMAGEM NÃO SEJA CORTADA */
+    margin: 0 auto;
+}
+
+/* Responsividade para Celulares e Tablets */
+@media (max-width: 768px) {
+    .topo-banner img {
+        max-height: 350px; /* Ajusta a altura em telas menores */
+    }
+}
