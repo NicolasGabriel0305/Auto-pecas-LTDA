@@ -1,0 +1,24 @@
+{
+  "name": "auto-pecas-ltda",
+  "version": "1.0.0",
+  "description": "Este projeto consiste num website institucional desenvolvido para a empresa fictícia **Auto Peças LTDA**. O projeto foi construído como parte de uma tarefa de avaliação académica do curso de graduação.\r Alunos: \r Claudio Matias da Paz Silveira - 01929698\r Nicolas Gabriel Dos Santos Lima - 01928230\r ---",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasGabriel0305/Auto-pecas-LTDA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NicolasGabriel0305/Auto-pecas-LTDA/issues"
+  },
+  "homepage": "https://github.com/NicolasGabriel0305/Auto-pecas-LTDA#readme"
+}
